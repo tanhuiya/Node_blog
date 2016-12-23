@@ -33,9 +33,16 @@ a:hover{
   display : inline-block;  
 }
 
+.nav-setting {
+  position: fixed;
+  right: 30px;
+  top: 35px;
+  z-index: 999;
+}
+
 .nav-setting .ui.dropdown.button{
   padding : 10px 10px 0 10px;
-  background-color : #fff !import; 
+  background-color : #fff !important;
 }
 .nav-setting .icon.bars{
   color : #000;
